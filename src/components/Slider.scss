@@ -29,3 +29,15 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .carousel {
+    .slide {
+      img {
+        width: 100vw !important;
+        height: 40vw;
+        object-fit: cover;
+      }
+    }
+  }
+}
